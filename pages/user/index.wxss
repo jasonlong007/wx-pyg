@@ -1,0 +1,125 @@
+page{
+    background-color: #edece8;
+}
+.user_info_wrap {
+    height: 45vh;
+    overflow: hidden;
+    background: var(--themeColor);
+}
+
+.user_img_wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.user_bg {
+    height: 50vh;
+    -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+    filter: blur(10px);
+}
+.user_info{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_info .user_icon{
+   width: 150rpx;
+   height: 150rpx;
+   border-radius: 50%;
+}
+.user_info .user_name{
+    color: #fff;
+    margin-top: 40rpx;
+    /* font-size: 40rpx; */
+}
+.user_btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    border:1rpx solid greenyellow;
+    color: greenyellow;
+    font-size: 38rpx;
+    padding: 30rpx;
+    border-radius: 10rpx;
+}
+.user_content{
+ position: relative;
+}
+.user_main{
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  color: #666666;
+  padding-bottom: 100rpx;
+}
+.history_wrap{
+  display: flex;
+  background-color: #fff;
+}
+.history_wrap navigator{
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.his_num{
+color: var(--themeColor);
+}
+.his_name{
+
+}
+
+/* 我的订单 */
+.orders_wrap{
+ background: #fff;
+ margin-top: 30rpx;
+}
+.order_title{
+ padding: 20rpx;
+ border-bottom: 1rpx solid #cccccc;
+}
+.order_cotent{
+ display: flex;
+
+}
+.order_cotent navigator{
+    flex: 1;
+    text-align: center;
+    padding: 15rpx 0;
+}
+.order_cotent navigator .order_name{
+    
+}
+.order_cotent navigator .iconfont{
+    color: var(--themeColor);
+    /* width: 40rpx;
+    text-align: center; */
+}
+.address_wrap{
+margin-top: 30rpx;
+background: #fff;
+padding: 20rpx;
+}
+.app_info_wrap{
+    margin-top: 30rpx;
+    background: #fff;
+    padding: 20rpx;
+}
+.app_info_contact{
+  display: flex;
+  justify-content: space-between;
+}
+.app_info_item{
+    padding: 20rpx;
+    border-bottom: 1rpx solid #cccccc;
+}
+.recommend_wrap{
+    margin-top: 30rpx;
+    background: #fff;
+    padding: 20rpx;
+
+}
